@@ -1,0 +1,95 @@
+/* Global */
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+/* Generar */
+html,
+body {
+ height: 100%;
+ font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+.title {
+ text-align: center;
+ background-color: palegreen;
+}
+
+/* Main */
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.figuras {
+ height: 600px;
+ width: 800px;
+ background-color: #a050a0;
+ position: relative;
+}
+
+.circulo {
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ background: linear-gradient(
+  215deg,
+  rgba(0, 0, 0, 1) 30%,
+  rgba(13, 23, 170, 1) 53%,
+  rgba(0, 212, 255, 1) 86%
+ );
+ position: absolute;
+ left: 45%;
+ bottom: 80%;
+}
+
+.circulo:nth-child(1) {
+ z-index: 8;
+ left: 48%;
+}
+
+.circulo:nth-child(2) {
+ z-index: 7;
+ top: 80px;
+ left: 41%;
+}
+
+.circulo:nth-child(3) {
+ z-index: 6;
+ top: 150px;
+ left: 48%;
+}
+
+.circulo:nth-child(4) {
+ z-index: 5;
+ top: 200px;
+ left: 41%;
+}
+
+.circulo:nth-child(5) {
+ z-index: 4;
+ top: 270px;
+ left: 48%;
+}
+
+.circulo:nth-child(6) {
+ z-index: 3;
+ top: 320px;
+ left: 41%;
+}
+
+.circulo:nth-child(7) {
+ z-index: 2;
+ top: 390px;
+ left: 48%;
+}
+
+.circulo:nth-child(8) {
+ z-index: 1;
+ top: 440px;
+ left: 41%;
+}
